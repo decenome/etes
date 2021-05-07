@@ -88,3 +88,4 @@ extern "C" {
         return obj.passStructArray(vst, size);
     }
 }
+// g++ -o libTest.so -shared -fPIC cppLib.cpp
